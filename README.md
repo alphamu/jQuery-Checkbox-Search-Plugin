@@ -2,7 +2,7 @@ jQuery-Checkbox-Search-Plugin
 =============================
 
 jQuery Checkbox Search plugin lets you search all checkboxes in a page and select them from within a input field (text)
-
+<img src="http://www.waddleworks.com/images/searchbox-screenshot.gif"/>
 Plugin in only 4.9KB - uncompressed
 
 TESTED ON
