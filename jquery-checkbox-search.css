@@ -1,0 +1,26 @@
+#brandsSuggestContainer{
+	height:100px;
+	position:relative;
+}
+#brandSuggestion{
+	position: absolute;
+	border: 1px solid #CCC;
+	width:200px;
+	height:115px;
+	left: 0px;
+	top:21px;
+	overflow:auto;
+	background-color: #FFF;
+	display:none;
+}
+
+#brandSuggestion .option{
+	font-size: 12px;
+	font-family: "Lucida Grande" arial;
+	padding: 2px 0;
+	cursor: pointer;
+}
+
+#brandSuggestion .option a.selected, #brandSuggestion .option a.selected:visited{
+	color:#999;
+}
