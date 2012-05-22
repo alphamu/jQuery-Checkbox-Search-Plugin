@@ -23,31 +23,32 @@ First official release.
 HOW TO USE
 ----------
 In your HTML file, include css in the HEAD:
-`<link rel="stylesheet" type="text/css" href="jquery-checkbox-search.css" /> `
+`<link rel="stylesheet" type="text/css" href="jquery-checkbox-search.css" />`
 
 You can include this in the HEAD as well, however good programming
 practices dictate that you include the following line after your tag.
 Please make sure it occurs after your jquery include.
-`<SCRIPT LANGUAGE="JavaScript" SRC="jquery-checkbox-search.js"></SCRIPT> `
+`<SCRIPT LANGUAGE="JavaScript" SRC="jquery-checkbox-search.js"></SCRIPT>`
 
 In your HTML file, the input element you want to use for search, call matchBrands(this.value):
-`<input onKeyUp="matchBrands(this.value);" > `
+`<input onKeyUp="matchBrands(this.value);" >`
 
 In jquery-checkbox-search.js you can specify the text you want to index for search:
 `var path_to_brands = ".checkbox_container span";`
 
 Where each checkbox is structured in the following way:
-`<div class="checkbox_container"><input type="checkbox"/><span>Capezio</span></div> `
+`<div class="checkbox_container"><input type="checkbox"/><span>Capezio</span></div>`
 OR
-`var path_to_brands = "span.searchable" `
+`var path_to_brands = "span.searchable";`
 
 Where each checkbox is structured in the following way:
-<input type="checkbox"/><span class="searchable">Capezio</span> 
+`<input type="checkbox"/><span class="searchable">Capezio</span>`
 
 Sadly the current version of the plugin expects that the tags
 previous sibling is the checkbox.
 
 CHANGING LOOK AND FEEL
+----------------------
 Change the CSS file as you see fit to effect the look and feel.
 The mouseover effect of the selections (the highlighting) is controlled within the JS.
 Look for 'backColor' and change as you see fit.
